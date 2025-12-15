@@ -1,0 +1,250 @@
+/* GLOBAL STYLES */
+input[type=submit], button[type=button], button[type=submit] {
+	min-width: 12em;
+	margin: 5px 0;
+}
+input[type=submit].btn-link, button[type=button].btn-link, button[type=submit].btn-link {
+	width: auto;
+}
+
+/* stack buttons when less than desktop md-min scren width */ 
+@media (max-width: 991px) {
+ .form-buttons input[type="submit"], .form-buttons button[type=button], .form-buttons button[type=submit], .form-buttons a {
+  display: block;
+  width: 67%;
+ }
+}
+
+/* HEADER STYLES */
+#gcwu-sig {
+ width: 100%;
+}
+#wmms {
+ max-width: 100%;
+}
+#wb-bnr #wb-glb-mn ul li > a {
+ text-decoration: none;
+}
+
+/* MAIN CONTENT STYLES */
+main {
+	margin-top: 20px;
+}
+main h1#wb-cont {
+	line-height: 1.15;
+	margin-top: 0;
+}
+main label {
+ font-weight: 300;
+}
+main .fq-ol h2 {
+ font-size: 20px;
+}
+main .fq-ol h3 {
+ font-size: 19px;
+}
+main .fq-ol h4 {
+ font-size: 18px;
+}
+main .fq-ol h5 {
+ font-size: 17px;
+}
+main .fq-ol h6 {
+ font-size: 16px;
+}
+main .form-group .form-control {
+  width: 100%;
+}
+main #login fieldset legend {
+  margin-top: 23px;
+  border: none;
+}
+main .login-list-group .list-group a.list-group-item.active, .login-list-group .list-group a.list-group-item.active:focus, .login-list-group .list-group a.list-group-item.active:hover {
+  background-color: #335075; 
+  border-color: #335075;
+}
+main .login-list-group .list-group a {
+  text-decoration: none;
+}
+main .login-panel .panel-title {
+  font-weight: 300;
+}
+main .login-panel #left-box {
+  margin-bottom: 0.75em;
+}
+@media (min-width: 992px) {
+  main .login-panel #left-box {
+    border-right: 1px solid #DDDDDD;
+  }
+}
+
+/* wizard */
+.fuelux-container {
+ margin-top: 0px;
+ margin-bottom: 20px;
+}
+.fuelux .wizard>.steps li.complete:hover {
+ background: none repeat scroll 0 0 #f3f4f5;
+ cursor: default;
+}
+.fuelux .wizard>.steps li.complete:hover .chevron:before {
+ border-left: 14px solid #f3f4f5;
+}
+.fuelux .wizard > .steps {
+ width: 100%;
+}
+.fuelux .wizard > .steps li {
+ cursor: default;
+ display: table-cell;
+ width: 20%;
+}
+.fuelux .wizard > .steps li:first-child {
+ padding-left: 15px;
+} 
+.fuelux .wizard > .steps li span.text {
+ display: block;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ text-align: center;
+}
+
+/* side navigation */
+main .wb-sec-def {
+	margin-top: 38px;
+}
+main .wb-sec-def .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  background-color: #335075;
+}
+main .wb-sec-def .nav-pills > li > a, .nav-pills > li > a:focus, .nav-pills > li > a:hover {
+  text-decoration: none;
+}
+#wb-sec .list-group li + li .list-group-item {
+ border-top: none;
+}
+.panel #wb-sec {
+ padding-bottom: 0;
+}
+.panel #wb-sec .list-group-item {
+ border: 0;
+}
+
+/* mobile menu */
+#mb-pnl .lng-ofr {
+	text-align: left;
+}
+#mb-pnl .lng-ofr ul li {
+    padding: 0 0 10px 1.27em;
+}
+
+/* errors */
+div.errorContainer p {
+ font-weight: bold;
+}
+.inputError {
+ color: #C00000;
+}
+span.inputError {
+ margin: 0 !important;
+ display: block;
+}
+
+/* checklists */
+.container-checklist ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.container-checklist ul li span.text {
+  display: block;
+  padding-left: 25px;
+}
+
+.container-checklist .panel-title, .panel-title {
+	font-weight: 300;
+}
+
+.container-checklist .nested-checklist ul{
+	padding-left: 22px;
+}
+
+.nested-checklist .unSet {
+  background: url(../images/square_black.png) no-repeat 0 3px;
+}
+
+.met {
+  background: url(../images/tick.png) no-repeat 0 3px;
+}
+.notMet {
+  background: url(../images/cross.png) no-repeat 0 3px;
+}
+.unSet {
+  background: url(../images/bullet_black.png) no-repeat 0 3px;
+}
+
+/* timestamp */
+#wb-dtmd dd, #wb-dtmd dt {
+  font-weight: 300;
+}
+
+/* icons */
+a[href^="mailto:"] {
+ background: url("../images/icon-email.gif") no-repeat scroll 0 2px transparent;
+ padding-left: 19px;
+}
+.back::before {
+ content: "\e091";
+ color: #000;
+ font-family: "Glyphicons Halflings";
+ font-size: .7em;
+ padding: 0 5px;
+}
+
+.btn-link.link-like {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-decoration: underline;
+}
+
+/* FOOTER STYLES */
+#wb-info .brand object {
+ max-width: 100%;
+}
+
+.password-strength-container {
+ height:18px;
+ margin-top: 6px;
+ border: 1px solid #bbbbbb;
+ background-color: #dddddd;
+}
+.password-strength {
+ line-height:16px;
+ font-size: 11px;
+ background-color: #dddddd;
+}
+.password-strength-container .strength-none {
+ width: 0%;
+}
+.password-strength-container .strength-0 {
+ width: 20%;
+ background-color: red;
+}
+.password-strength-container .strength-1 {
+ width: 40%;
+ background-color: red;
+}
+.password-strength-container .strength-2 {
+ width: 60%;
+ background-color: orange;
+}
+.password-strength-container .strength-3 {
+ width:  80%;
+ background-color: orange;
+}
+.password-strength-container .strength-4 {
+ width: 100%;
+ background-color: green;
+}
+.break-words {
+	word-break: break-all;
+}
